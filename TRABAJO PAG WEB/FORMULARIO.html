@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Contáctanos</h1>
+        <p>Si estás interesado en nuestros productos o deseas participar en nuestro emprendimiento,<br>
+             por favor completa el siguiente formulario y nos pondremos en contacto contigo a la brevedad.</p>
+        
+        <form action="your-server-endpoint" method="POST">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Teléfono:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <label for="interest">¿Te gustaría participar en nuestro emprendimiento?</label>
+            <select id="interest" name="interest" required>
+                <option value="">Selecciona una opción</option>
+                <option value="si">Sí</option>
+                <option value="no">No</option>
+                <option value="quizas">Quizás</option>
+            </select>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <a href="PagWebJoseRomañaINDEX.html">VOLVER</a>
+    </div>
+</body>
+</html>
